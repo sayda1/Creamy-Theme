@@ -2,6 +2,21 @@
     outline: 1px solid pink;
 }
 /*--------------------------------------clases----generales--------*/
+body{
+    margin: 0;
+    padding: 0;
+}
+body p{
+  font-size: 16px; 
+  margin-top: 22px;
+}
+body h2 {
+  font-family:"Merriweather";
+   
+}
+body h4{
+    font-family:"Merriweather"; 
+}
 header ,.tres , footer{
     background:  #da2c38;
     color:  #fbff90;
@@ -16,10 +31,12 @@ header ,.tres , footer{
 /*-------------------------------------header--menu---------*/
 header .cinco{
     color: #f4f0bb;
-    margin:30px;
+    margin-top:30px;
     font-size: 25px;
+    font-family:"Merriweather";
 }
 nav li a{
+    font-family:"Merriweather";
     margin: 15px;
 	display: block;
 	padding: 10px 15px;
@@ -51,37 +68,33 @@ nav li a:hover, nav li a:focus, nav li a:active{
     background-position: center;
 }
 .fondo{
-    background-color: rgba(0, 0, 0, 0.77);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .uno .text-center{
-    margin: 200px;
-    color: #fbff90
+    margin: 20%;
+    color: #fbff90;
+    font-family:"Merriweather"; 
 }
-.uno .text-center p {
-    font-size:16px; 
-}
+
 /*-----------------------------------section----dos-----oh----soooo--*/
 .dos {
     padding:40px;
 }
-.dos p {
-  font-size: 16px;
-    margin-top: 22px;
+.dos h1{
+    font-family:"Merriweather";
 }
+
 /*-----------------------------section------tres------about--------*/
 .tres .text-center {
     margin: 60px;
 }
-.tres p{
-    margin-top: 22px;
-    font-size: 16px;
-}
+
 /*--------------------------------------section---cuatro---iconos---*/
 .cuatro{
-    padding: 20px;
+    padding: 20px 0;
 }
 .cuatro i{
-    font-size: 90px;
+    font-size:120px;
 }
 .cuatro h4{
     font-size: 25px;
@@ -90,8 +103,32 @@ nav li a:hover, nav li a:focus, nav li a:active{
 footer{
     text-align: left;
     font-size: 16px;
-    padding: 20px;
+    padding: 20px 0;
+    margin: 0;
 }
-.cuatro p{
-    font-size: 16px;
+@media screen and (max-width:999px) and (min-width:768px)
+{
+    header .cinco{
+        font-size: 20px;
+    }
+    
+    .dos{
+        padding: 0;
+    }
 }
+@media screen and (max-width:667px) and (min-width:375px){
+    .cinco{
+        margin-top: 0;
+    }
+    .dos p {
+        font-size: 14px;
+    }
+    .tres p{
+        font-size: 14px;
+    }
+    .tres  .text-center{
+        margin: 0;
+        padding: 0;
+    }
+}
+
