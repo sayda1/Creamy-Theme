@@ -51,10 +51,10 @@ nav li a:hover, nav li a:focus, nav li a:active{
     background-position: center;
 }
 .fondo{
-    background-color: rgba(0, 0, 0, 0.51);
+    background-color: rgba(0, 0, 0, 0.77);
 }
 .uno .text-center{
-    margin: 190px;
+    margin: 200px;
     color: #fbff90
 }
 .uno .text-center p {
@@ -67,4 +67,31 @@ nav li a:hover, nav li a:focus, nav li a:active{
 .dos p {
   font-size: 16px;
     margin-top: 22px;
+}
+/*-----------------------------section------tres------about--------*/
+.tres .text-center {
+    margin: 60px;
+}
+.tres p{
+    margin-top: 22px;
+    font-size: 16px;
+}
+/*--------------------------------------section---cuatro---iconos---*/
+.cuatro{
+    padding: 20px;
+}
+.cuatro i{
+    font-size: 90px;
+}
+.cuatro h4{
+    font-size: 25px;
+}
+/*----------------------------------footer------*/
+footer{
+    text-align: left;
+    font-size: 16px;
+    padding: 20px;
+}
+.cuatro p{
+    font-size: 16px;
 }
