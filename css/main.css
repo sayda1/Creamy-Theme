@@ -1,1 +1,41 @@
-/* Inserta tu código aquí */
+*{
+    outline: 1px solid pink;
+}
+/*---------------------------------------header---menu-----*/
+nav li a{
+	display: block;
+	padding: 10px 15px;
+	transition: all 0.2s;
+	border-radius: 6px;
+    font-size:18px;
+    color: white;
+}
+nav li a:hover, nav li a:focus, nav li a:active{
+	text-decoration: none;
+	outline: none;
+	background: #8d62a8;
+    color: black;
+}
+#main-navigation{
+    z-index:503;
+	right: 10px;
+	margin: 10px 0 0 0;
+}
+#main-navigation ul{
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 10px;
+    border-radius: 5px;
+}
+/*-----------------------------------------------section-------*/
+.uno{
+    background-image: url(../img/creamy.jpg);
+    background-position: center;
+}
+.fondo{
+    background-color: rgba(0, 0, 0, 0.51);
+}
+.uno .text-center{
+    margin: 190px;
+    color: rgba(234, 230, 138, 0.74);
+}
