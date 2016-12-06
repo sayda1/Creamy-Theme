@@ -1,20 +1,38 @@
 *{
     outline: 1px solid pink;
 }
-/*---------------------------------------header---menu-----*/
+/*--------------------------------------clases----generales--------*/
+header ,.tres , footer{
+    background:  #da2c38;
+    color:  #fbff90;
+    text-align: center;
+}
+.dos , .cuatro{
+    background: #fbff90; 
+    color:  #da2c38;
+    text-align: center;
+}
+
+/*-------------------------------------header--menu---------*/
+header .cinco{
+    color: #f4f0bb;
+    margin:30px;
+    font-size: 25px;
+}
 nav li a{
+    margin: 15px;
 	display: block;
 	padding: 10px 15px;
-	transition: all 0.2s;
+	transition: all 0.s;
 	border-radius: 6px;
     font-size:18px;
-    color: white;
+    color:  #f4f0bb;
 }
 nav li a:hover, nav li a:focus, nav li a:active{
 	text-decoration: none;
 	outline: none;
-	background: #8d62a8;
-    color: black;
+	background:rgba(230, 239, 161, 0.68);
+    color: white;
 }
 #main-navigation{
     z-index:503;
@@ -22,12 +40,12 @@ nav li a:hover, nav li a:focus, nav li a:active{
 	margin: 10px 0 0 0;
 }
 #main-navigation ul{
-	background: rgba(0,0,0,0.7);
+	background: rgba(41, 35, 37, 0.69);
 	list-style: none;
 	padding: 10px;
     border-radius: 5px;
 }
-/*-----------------------------------------------section-------*/
+/*-----------------------------------------section----------------------------*/
 .uno{
     background-image: url(../img/creamy.jpg);
     background-position: center;
@@ -37,5 +55,16 @@ nav li a:hover, nav li a:focus, nav li a:active{
 }
 .uno .text-center{
     margin: 190px;
-    color: rgba(234, 230, 138, 0.74);
+    color: #fbff90
+}
+.uno .text-center p {
+    font-size:16px; 
+}
+/*-----------------------------------section----dos-----oh----soooo--*/
+.dos {
+    padding:40px;
+}
+.dos p {
+  font-size: 16px;
+    margin-top: 22px;
 }
